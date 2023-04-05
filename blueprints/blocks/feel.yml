@@ -1,0 +1,23 @@
+name: field.blocks.feel.name
+icon: box
+preview: box
+wysiwyg: true
+fields:
+  boxType:
+    label: Box Type
+    type: radio
+    default: text
+    options:
+      - text
+      - bolt
+      - alert
+      - neutral
+  problem:
+    type: writer
+    placeholder: Enter some text…
+  condition:
+    type: writer
+    placeholder: Enter some text…
+  cause:
+    type: writer
+    placeholder: Enter some text…
